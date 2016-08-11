@@ -10,11 +10,20 @@
   <body>
     <div class="banner">
       <h1>Front-end Fundamentals</h1>
-      <h2>Responsive Images</h2>
+      <h2>Srset & Sizes Image Attribute</h2>
     </div>
-    <div class="container">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, doloribus distinctio error beatae repellendus laudantium deleniti quis molestiae, aspernatur maxime sint animi porro id, explicabo sed temporibus quidem a molestias.
-      <img src="" alt="" />
+    <div class="content">
+        <!-- Images Go Here -->
+
+        <h1>srcset Attribute - Device Pixel Density Example:</h1>
+        <img src="images/space_1x.jpg" srcset="images/space_1x.jpg 1x, images/space_2x.jpg 2x" alt="It's Space!">
+
+        <h1>srcset Attribute - W Example</h1>
+        <img src="images/space_1x.jpg" srcset="images/space_1x.jpg 500w, images/space_2x.jpg 1000w" alt="It's Space!">
+
+        <h1>sizes Attribute Example</h1>
+        <img src="images/space_medium.jpg" srcset="images/space_small.jpg 600w, images/space_medium.jpg 1500w, images/space_large.jpg 3000w" sizes="(min-width: 1024px) 3000px, (min-width: 768px) and (max-width: 1024px) 1500px" alt="It's Space!">
+
     </div>
   </body>
 </html>

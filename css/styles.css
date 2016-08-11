@@ -1,13 +1,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
   font-weight: 400;
 }
 
 .banner {
   color: #FFFFFF;
   background-color: #1b62b2;
-  text-align: center;
   height: auto;
+  text-align: center;
   padding: 10px;
 }
 
@@ -15,7 +18,37 @@ body {
   font-size: 2.5em;
 }
 
-.container {
-  width: 90%;
+.content {
+  max-width: 90%;
   margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) {
+  .banner {
+    background-color: red;
+  }
+  .banner h1 {
+    font-size: 4em;
+  }
+}
+
+/* Desktop Styles */
+@media screen and (min-width: 1024px) {
+  .banner {
+    background-color: green;
+  }
+  .banner h1 {
+    font-size: 6em;
+  }
+}
+
+@media print {
+  .banner {
+    display: none;
+  }
 }
