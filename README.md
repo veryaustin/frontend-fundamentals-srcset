@@ -4,4 +4,4 @@ Companion source code for [Front-end Fundamentals - Srcset & Sizes Attributes Fo
 
 Join me as we take a look at the srcset & sizes attributes for the img tag and see how you can use it to provide optimized front-end experiences for visitors to your websites.
 
-[Demo Site](http://veryaustin.com/demo-sites/front-end-fundamentals/srcset/)
+[Demo Site](http://code.veryaustin.com/demo-sites/front-end-fundamentals/srcset/)
